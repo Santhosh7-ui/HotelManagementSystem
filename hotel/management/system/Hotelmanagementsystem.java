@@ -7,8 +7,8 @@ import java.awt.event.ActionListener;
 
 public class Hotelmanagementsystem extends JFrame implements ActionListener {
     Hotelmanagementsystem(){
-            //setSize(1366,555);
-            //setLocation(100,100);
+        //setSize(1366,555);
+        //setLocation(100,100);
         setBounds(0,0,1366,544); //location x, location y, width, height
         ImageIcon iI = new ImageIcon(ClassLoader.getSystemResource("icons/first.jpg"));
         JLabel image = new JLabel(iI);
