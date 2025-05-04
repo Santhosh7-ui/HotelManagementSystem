@@ -7,7 +7,7 @@ public class Dashboard extends JFrame {
 
     Dashboard(){
         setBounds(0,0,1550,1000);
-        setLayout(null);
+        //setLayout(null);
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/third.jpg"));
         Image i2 = i1.getImage().getScaledInstance(1550,1000,Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
